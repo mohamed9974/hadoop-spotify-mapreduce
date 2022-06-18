@@ -77,16 +77,21 @@ Jar file is installed in the main folder under the name Hw3.jar and the test cas
 ```
 ## Usage <a name = "usage"></a>
 how to use the system:
-```1. cd /path/to/project
 ```
-```2. ./runtest.sh
+1. cd /path/to/project
 ```
-```3. mvn exec:java -Dexec.mainClass=Hw3 -Dexec.args="<test command> <input.csv> <outputfile>" -Dexec.cleanupDaemonThreads=false --quiet &> output/explicitlypopular.txt
 ```
-```4. You will find the jar file in the target directory and a text file in the output directory.
+2. ./runtest.sh
 ```
-```5. you can use the following command to run the program on hadoop: 
-      hadoop jar target/hw3-1.0.jar Hw3 <test command> <input.csv> <outputfile>
+```
+3. mvn exec:java -Dexec.mainClass=Hw3 -Dexec.args="<test command> <input.csv> <outputfile>" -Dexec.cleanupDaemonThreads=false --quiet &> output/explicitlypopular.txt
+```
+```
+4. You will find the jar file in the target directory and a text file in the output directory.
+```
+```
+5. you can use the following command to run the program on hadoop: 
+hadoop jar target/hw3-1.0.jar Hw3 <test command> <input.csv> <outputfile>
 ```
 
 
