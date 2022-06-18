@@ -1,4 +1,4 @@
-# Project Title
+# Apache Hadoop’s MapReduce
 
 ## Table of Contents
 
