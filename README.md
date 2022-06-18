@@ -58,17 +58,15 @@ Give examples
 
 A step by step series of examples that tell you how to get a development env running.
 
-Say what the step will be
+Steps:
 
 ```
-    []: # Installing
-    1. cd /path/to/project
-    2. ./install.sh
+    $ cd /path/to/project 
 ```
 ```
-wait until it finishes
+    $ ./install.sh
 ```
-
+```
 [INFO] --- maven-jar-plugin:3.0.2:jar (default-jar) @ Hw3 ---
 [INFO] 
 [INFO] --- maven-install-plugin:2.4:install (default-install) @ Hw3 ---
@@ -81,7 +79,7 @@ wait until it finishes
 [INFO] Finished at: 2022-06-18T18:37:08+03:00
 [INFO] ------------------------------------------------------------------------
 Jar file is installed in the main folder under the name Hw3.jar and the test cases are ran under output folder
-
+```
 ## Usage <a name = "usage"></a>
 
     []: # Usage
