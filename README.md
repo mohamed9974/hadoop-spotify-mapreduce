@@ -76,6 +76,7 @@ Steps:
 Jar file is installed in the main folder under the name Hw3.jar and the test cases are ran under output folder
 ```
 ## Usage <a name = "usage"></a>
+how to use the system:
     1. cd /path/to/project
     2. ./runtest.sh
     3. mvn exec:java -Dexec.mainClass=Hw3 -Dexec.args="<test command> <input.csv> <outputfile>" -Dexec.cleanupDaemonThreads=false --quiet &> output/explicitlypopular.txt
@@ -83,7 +84,6 @@ Jar file is installed in the main folder under the name Hw3.jar and the test cas
     5. you can use the following command to run the program on hadoop: 
       hadoop jar target/hw3-1.0.jar Hw3 <test command> <input.csv> <outputfile>
 
-Add notes about how to use the system.
 
 ## Notes <a name = "notes"></a>
 
