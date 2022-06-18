@@ -66,6 +66,7 @@ Steps:
 ```
     $ ./install.sh
 ```
+    # This is the expected Output at the end of the installation
 ```
 [INFO] --- maven-jar-plugin:3.0.2:jar (default-jar) @ Hw3 ---
 [INFO] 
