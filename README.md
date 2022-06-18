@@ -41,8 +41,6 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 What things you need to install the software and how to install them.
-
-    []: # Prerequisites
     1. Install Java 8
     2. Install Maven
 ```bash
@@ -89,7 +87,6 @@ Add notes about how to use the system.
 
 ## Notes <a name = "notes"></a>
 
-    []: # Notes
     1. The input file is a csv file 
     2. The output file is a hadoop partitioned text file 
     3. The test command is one of the following:
